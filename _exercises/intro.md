@@ -5,9 +5,8 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to NodeJS DOC.
+  Bienvenue dans la section "Exercices".
 
-  Content not currently available. Please come back later.
   {: .info }
 left_code_blocks:
   - code_block:
