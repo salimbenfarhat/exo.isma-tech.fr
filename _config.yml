@@ -14,21 +14,12 @@ baseurl: https://exo.isma-tech.fr
 timezone: Europe/Paris
 
 collections:
-  jekyll:
-    title: Jekyll
+  exercises:
+    title: Exercises
     position_number: 1
-  laravel:
-    title: Laravel
+  projects:
+    title: Projects
     position_number: 2
-  slimframework:
-    title: SlimFramework
-    position_number: 3
-  reactjs:
-    title: ReactJS
-    position_number: 4
-  nodejs:
-    title: NodeJS
-    position_number: 5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -45,27 +36,12 @@ defaults:
       layout: default
   -
     scope:
-      type: "jekyll"
+      type: "exercises"
     values:
       _hide_content: true
   -
     scope:
-      type: "laravel"
-    values:
-      _hide_content: true
-  -
-    scope:
-      type: "slimframework"
-    values:
-      _hide_content: true
-  -
-    scope:
-      type: "reactjs"
-    values:
-      _hide_content: true
-  -
-    scope:
-      type: "nodejs"
+      type: "projects"
     values:
       _hide_content: true
 
