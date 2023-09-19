@@ -1,12 +1,12 @@
 # ----
 # Site
 
-title: DOC by SALIM.LINK
-description: General Documentation For My Projects.
-url: https://doc.salim.link
+title: Exercises - ISMATECH
+description: Exercises List in Programmation.
+url: https://exo.ismatech.fr
 google_analytics_key:
 permalink: pretty
-baseurl: https://doc.salim.link
+baseurl: https://exo.ismatech.fr
 
 # -----
 # Build
