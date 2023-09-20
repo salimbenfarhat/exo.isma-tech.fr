@@ -5,9 +5,8 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to ReactJS DOC.
+  Bienvenue dans la section **Projets**.
 
-  Content not currently available. Please come back later.
   {: .info }
 left_code_blocks:
   - code_block:

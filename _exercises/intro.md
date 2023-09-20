@@ -5,7 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Bienvenue dans la section "Exercices".
+  Bienvenue dans la section **Exercices**.
 
   {: .info }
 left_code_blocks:
