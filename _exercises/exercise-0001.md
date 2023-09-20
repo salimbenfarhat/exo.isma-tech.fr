@@ -24,6 +24,7 @@ left_code_blocks:
           } else if ($signe == '/') {
               // Si le signe est /, vérifie si la valeur 2 est égale à 0 pour éviter une division par zéro
               if ($valeur2 == 0) {
+                  // Si la valeur 2 est égale à 0, renvoie un message d'erreur indiquant une division par zéro
                   return "Erreur : division par zéro";
               } else {
                   // Sinon, renvoie le quotient des deux valeurs
@@ -53,6 +54,7 @@ left_code_blocks:
               case '/':
                   // Si le signe est /, vérifie si la valeur 2 est égale à 0 pour éviter une division par zéro
                   if ($valeur2 == 0) {
+                      // Si la valeur 2 est égale à 0, renvoie un message d'erreur indiquant une division par zéro
                       return "Erreur : division par zéro";
                   } else {
                       // Sinon, renvoie le quotient des deux valeurs
