@@ -11,6 +11,7 @@ content_markdown: |-
 
   # Instructions
   **Créez une page HTML5** en utilisant des **balises sémantiques** qui contient les informations suivantes :
+  {: .info }
       - Une photo de profil
       - Un titre
       - Un paragraphe de présentation
@@ -19,7 +20,7 @@ content_markdown: |-
       - Une liste d’expériences professionnelles
       - Une liste de formations académiques
       - Une liste de centres d’intérêt
-  {: .info }
+  
   **Utilisez CSS3** pour mettre en forme votre page et la rendre responsive.
   {: .info }
   **Valider son code HTML5 et CSS** avec le service de validation du W3C.
