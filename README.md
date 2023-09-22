@@ -1,58 +1,25 @@
-# Aviator
+# EXO by ISMA-TECH
 
-API documentation template for Jekyll. Browse through a [live demo](https://tangerine-lemon.cloudvent.net/).
-Start documenting your API with this configurable theme.
+[**EXO by ISMA-TECH**](https://exo.isma-tech.fr) est un site regroupant une liste d'exercice pour apprendre à coder à destination de mon élève Ismael Ibrahima [Ismael Ibrahima](https://www.linkedin.com/in/ismael-ibrahima-a2920882/).
 
-![Aviator template screenshot](images/_screenshot.png)
+![Website screenshot](images/_screenshot.png)
 
-Aviator was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+## A Propos
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+<img src="https://salim.link/assets/img/avatar.png" alt="Ma Photo" width="200"/>
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/aviator-jekyll-template)
+---
 
-## Features
+**Nom:** Salim Benfarhat  
+**Email:** [hello@salim.link](mailto:hello@salim.link)  
+**WhatsApp:** [Mon WhatsApp](https://salim.link/whatsapp)  
+**Carte De Visite Digitale (C2VD):** [SALIM.LINK](https://salim.link)  
+**Agence Web:** [MARSWEB.FR](https://marsweb.fr)  
+**LinkedIn:** [Mon Profil LinkedIn](https://salim.link/linkedin)  
+**Faire un don:** [Mon Paypal](https://salim.link/paypal)
 
-* Three column layout
-* Fully responsive
-* Full text search
-* Pre-styled components
-* Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* SEO tags
-* Google Analytics
+N'hésitez pas à me contacter pour discuter de vos besoins en matière de prestations web. Je serais ravi de collaborer avec vous !
 
-## Setup
+N'hésitez pas à me contacter pour explorer des opportunités passionnantes dans le monde du développement web. En tant que créateur d'EXO by ISMA-TECH, je suis passionné par l'apprentissage et le partage de connaissances, et je suis prêt à mettre mes compétences au service de votre projet. Que vous ayez besoin de conseils, de développement sur mesure ou de solutions web innovantes, je suis là pour vous aider à concrétiser vos idées.
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
-
-## Develop
-
-Aviator was built with [Jekyll](http://jekyllrb.com/) version 3.7.2, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Aviator is already optimised for adding, updating and removing documentation pages in CloudCannon.
-
-### Usage
-
-* Each section is a different collection, this helps organise your content.
-* Set the order of the collections with the position_number field in collection configuration in `_config.yml`.
-* Set the order of the documents inside a collection by setting the position_number in front matter.
-
-### Search
-
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+Ensemble, nous pouvons créer des expériences web exceptionnelles. Alors, n'attendez plus, prenez contact avec moi et faisons de votre vision une réalité. Je suis impatient de discuter de vos projets et de collaborer avec vous pour les concrétiser. Contactez-moi dès aujourd'hui !
