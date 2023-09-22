@@ -29,24 +29,20 @@ exclude:
   - LICENSE
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
-  -
-    scope:
+  - scope:
       type: "exercises"
     values:
       _hide_content: true
-  -
-    scope:
+  - scope:
       type: "projects"
     values:
       _hide_content: true
 
 # -----------
-# CloudCannon
 
 types:
   - get
