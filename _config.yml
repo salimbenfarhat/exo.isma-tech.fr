@@ -15,10 +15,10 @@ timezone: Europe/Paris
 
 collections:
   exercises:
-    title: Exercises
+    title: Exercices
     position_number: 1
   projects:
-    title: Projects
+    title: Projets
     position_number: 2
 plugins:
   - jekyll-sitemap
@@ -61,6 +61,7 @@ languages:
   php: PHP
   python: Python
   ruby: Ruby
+  markdown: Markdown
 
 _options:
   content_markdown:

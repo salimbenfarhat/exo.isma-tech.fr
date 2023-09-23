@@ -39,7 +39,7 @@ content_markdown: |-
   {: .info }
 left_code_blocks:
   - code_block: |-
-
-    title:
-    language:
+      [PROJET 1](https://exo.ismatech.fr/projet_0001/)
+    title: Voir le projet
+    language: markdown
 ---
