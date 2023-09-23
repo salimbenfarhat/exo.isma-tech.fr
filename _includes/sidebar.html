@@ -5,16 +5,22 @@
 			<section>
 				<h6>{{ collection.title }}</h6>
 				<ul>
-					{% assign sorted_docs = collection.docs | sort: "position_number" %}
-					{% for doc in sorted_docs %}
+					{% assign collection_name = collection.label | downcase %}
+					{% assign sorted_items = site[collection_name] | sort: "position_number" %}
+					
+					{% for item in sorted_items limit: 4 %}
 						<li>
-							<a href="{% if page.url != '/' %}/{% endif %}#{{ doc.id | replace: '/', '' | replace: '.', '' }}">
-								{{ doc.title }}
-								{% if doc.type %}<span class="endpoint {{ doc.type }}"></span>{% endif %}
+							<a href="{% if page.url != '/' %}/{% endif %}#{{ item.id | replace: '/', '' | replace: '.', '' }}">
+								{{ item.title }}
+								{% if item.type %}<span class="endpoint {{ item.type }}"></span>{% endif %}
 							</a>
 						</li>
 					{% endfor %}
 				</ul>
+
+				{% if sorted_items.size > 4 %}
+					<a href="/all">Voir plus</a>
+				{% endif %}
 			</section>
 		{% endif %}
 	{% endfor %}

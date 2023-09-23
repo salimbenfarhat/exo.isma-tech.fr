@@ -1,0 +1,30 @@
+---
+layout: default
+title: Tous les posts
+---
+
+<section class="doc-content">
+  <section class="left-docs">
+  <h1>Tous les posts</h1>
+  
+  {% assign sorted_collections = site.collections | sort: "position_number" %}
+  {% for collection in sorted_collections %}
+    {% if collection.label != "posts" %}
+      <h2>{{ collection.title }}</h2>
+      <ul>
+        {% assign collection_name = collection.label | downcase %}
+        {% assign sorted_items = site[collection_name] | sort: "position_number" %}
+        
+        {% for item in sorted_items %}
+          <li>
+            <a href="{% if page.url != '/' %}/{% endif %}#{{ item.id | replace: '/', '' | replace: '.', '' }}">
+							{{ item.title }}
+							{% if item.type %}<span class="endpoint {{ item.type }}"></span>{% endif %}
+						</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+  </section>
+</section>
