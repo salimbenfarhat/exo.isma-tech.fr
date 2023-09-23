@@ -37,7 +37,7 @@ content_markdown: |-
   [CSS3 Cheatsheet](https://websitesetup.org/css3-cheat-sheet/)  
   [GitHub Pages Guide](https://guides.github.com/features/pages/)  
   {: .info }
-left_code_blocks:
+right_code_blocks:
   - code_block: |-
       [PROJET 1](https://exo.ismatech.fr/projet_0001/)
     title: Voir le projet
