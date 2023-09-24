@@ -8,7 +8,7 @@
 					{% assign collection_name = collection.label | downcase %}
 					{% assign sorted_items = site[collection_name] | sort: "position_number" %}
 					
-					{% for item in sorted_items limit: 4 %}
+					{% for item in sorted_items limit: 6 %}
 						<li>
 							<a href="{% if page.url != '/' %}/{% endif %}#{{ item.id | replace: '/', '' | replace: '.', '' }}">
 								{{ item.title }}
@@ -18,7 +18,7 @@
 					{% endfor %}
 				</ul>
 
-				{% if sorted_items.size > 4 %}
+				{% if sorted_items.size > 6 %}
 					<a href="/all">Voir plus</a>
 				{% endif %}
 			</section>
