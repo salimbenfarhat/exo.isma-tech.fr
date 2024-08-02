@@ -39,7 +39,8 @@ content_markdown: |-
   {: .info }
 right_code_blocks:
   - code_block: |-
-      [PROJET 1](https://exo.ismatech.fr/projet_0001/)
+      [PROJET 1 - REPO GITHUB](https://github.com/BruceWayne69/site-cv)  
+      [PROJET 1 - DEMO](https://brucewayne69.github.io/site-cv/)  
     title: Voir le projet
     language: markdown
 ---
